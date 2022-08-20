@@ -10,6 +10,7 @@ export const ContactItem = ({onFilter}) => {
     const visibleContacts = contacts && onFilter(contacts);
     
     return (
+        
         visibleContacts &&  visibleContacts.map(({id,name,number}) => {
             return (
                  <Item key={id }
