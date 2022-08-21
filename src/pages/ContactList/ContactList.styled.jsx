@@ -3,31 +3,35 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
 margin-left: auto;
 margin-right: auto;
-width: 600px;
-background-color: #5a5ac5;
-padding-bottom: 20px;
+height: 100vh;
+overflow: scroll;
+padding-bottom: 20px;   
 `
 
-export const Title = styled.h2`
-text-align: center;
-margin-top: 0;
-color: #cdcd70;
-`
 
 export const Label = styled.label`
     display: flex;
 align-items: center;
 margin-top: 10px;
 margin-bottom: 10px;
-color: #cdcd70;
+color: #fcf8f8fd;
     justify-content: center;
 `
 
 export const Input = styled.input`
+
 display: block;
 margin-left: auto;
 margin-right: auto;
-min-width: 200px;
-border: none;
+padding: 5px;
+min-width: 300px;
+border: 1px solid blue;
 border-radius: 4px;
+`
+export const List = styled.ul`
+display: flex;
+flex-wrap: wrap;
+    gap: 10px;
+padding-bottom: 80px;
+
 `
